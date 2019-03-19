@@ -1,0 +1,2 @@
+MainPackage=C:\Users\i.stupak\source\repos\BinObjectCleaner\BinObjectCleaner\bin\x86\Release\BinObjectCleaner_1.0.0.0_x86.appx
+SymbolPackage=C:\Users\i.stupak\source\repos\BinObjectCleaner\BinObjectCleaner_1.0.0.0_Test\BinObjectCleaner_1.0.0.0_x86.appxsym

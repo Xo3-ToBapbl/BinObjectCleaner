@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:mobile="http://schemas.microsoft.com/appx/manifest/mobile/windows10" IgnorableNamespaces="uap mp mobile">
+  <Identity Name="bebaa96f-e264-43d6-82fc-301a9ad91f82" Publisher="CN=i.stupak" Version="1.0.0.0" />
+  <mp:PhoneIdentity PhoneProductId="bebaa96f-e264-43d6-82fc-301a9ad91f82" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>BinObjectCleaner</DisplayName>
+    <PublisherDisplayName>i.stupak</PublisherDisplayName>
+    <Logo>Assets\PackageLogo\PackageLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="BinObjectCleaner.App">
+      <uap:VisualElements DisplayName="Bin Object Cleaner" Square150x150Logo="Assets\Tiles\MediumTile.png" Square44x44Logo="Assets\AppIcons\AppLogo.png" Description="Visual Studio solutions bin, object folders cleaner." BackgroundColor="transparent">
+        <uap:LockScreen Notification="badge" BadgeLogo="Assets\AppBadgeLogo\AppBadgeLogo.png" />
+        <uap:DefaultTile ShortName="Bin-Object Cleaner">
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreens\SplashScreen.png" BackgroundColor="#3e3e42" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <uap:Capability Name="documentsLibrary" />
+  </Capabilities>
+</Package>
